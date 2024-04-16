@@ -22,7 +22,7 @@ const GradientFollower: React.FC = () => {
       onMouseMove={handleMouseMove}
       className='w-full h-screen flex justify-center items-center'
       style={{
-        background: `radial-gradient(circle closest-side at ${gradient.x}% ${gradient.y}%, #6ee7b7, #3b82f6)`,
+        background: `radial-gradient(circle 450px at ${gradient.x}% ${gradient.y}%, #2b2b2b, #1A1C1D)`,
       }}
     >
       <p className='text-white text-lg font-semibold'>Move your cursor over here!</p>
