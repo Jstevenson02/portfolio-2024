@@ -21,8 +21,9 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Navbar />
-        <GradientFollower></GradientFollower>
-        <main>{children}</main>
+        <GradientFollower>
+          <main>{children}</main>
+        </GradientFollower>
       </body>
     </html>
   );

@@ -1,13 +1,17 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
 
 interface GradientPosition {
   x: number;
   y: number;
 }
 
-const GradientFollower: React.FC = () => {
+interface GradientFollowerProps {
+  children?: ReactNode; // This allows the component to receive children
+}
+
+const GradientFollower: React.FC<GradientFollowerProps> = ({ children }) => {
   const [gradient, setGradient] = useState<GradientPosition>({ x: 50, y: 50 });
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
@@ -25,7 +29,7 @@ const GradientFollower: React.FC = () => {
         background: `radial-gradient(circle 450px at ${gradient.x}% ${gradient.y}%, #2b2b2b, #1A1C1D)`,
       }}
     >
-      <p className='text-white text-lg font-semibold'>Move your cursor over here!</p>
+      {children} {/* Render children inside the div */}
     </div>
   );
 };
