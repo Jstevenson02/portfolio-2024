@@ -4,6 +4,7 @@
 
 :root {
   background-color: #1a1c1d;
+  color: #f4f4f4;
 }
 
 body {
@@ -11,14 +12,6 @@ body {
 
 .navLink {
   color: #9b9b9b;
-}
-
-.navLink:hover {
-  color: #f4f4f4;
-}
-
-.hover-line-text {
-  height: 100vh;
 }
 
 .hover-line-text .text-container {
@@ -29,13 +22,13 @@ body {
   overflow: hidden; /* Ensures that the line does not extend beyond the initial container width */
 }
 
-.hover-line-text .text-container span {
+.hover-line-text .text-container a {
   color: #9b9b9b; /* Tailwind gray-700 */
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.hover-line-text .text-container:hover span,
-.hover-line-text .text-container.active span {
+.hover-line-text .text-container:hover a,
+.hover-line-text .text-container.active a {
   transform: translateX(55px); /* Moves the text to the right on hover */
   color: #f4f4f4; /* Tailwind blue-500 */
   font-weight: bold;
@@ -47,7 +40,7 @@ body {
   left: 0;
   top: 50%;
   width: 50px; /* Initial width of the line */
-  height: 2px;
+  height: 1px;
   background-color: #f4f4f4; /* Tailwind blue-500 */
   transform: scaleX(0);
   transition: transform 0.2s ease;

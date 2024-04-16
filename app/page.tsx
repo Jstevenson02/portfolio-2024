@@ -4,28 +4,33 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Home() {
-  const [isActive, setIsActive] = useState(false);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null); // Add type annotation for state
 
-  const handleClick = () => {
-    setIsActive(!isActive);
+  const items: { label: string; to: string }[] = [
+    { label: "About", to: "/#about" },
+    { label: "Experience", to: "/#experience" },
+    { label: "Projects", to: "/#projects" },
+  ];
+  const handleClick = (index: number): void => {
+    setActiveIndex(index); // Function with type annotation for parameter and return type
   };
+
   return (
     <>
       <div className='flex w-screen h-screen'>
         <div className='w-1/2 p-4 flex flex-col'>
-          <Link className='navLink' href={"/#about"}>
-            ABOUT
-          </Link>
-          <Link className='navLink' href={"/#about"}>
-            EXPERIENCE
-          </Link>
-          <Link className='navLink' href={"/#about"}>
-            PROJECTS
-          </Link>
           <div className='hover-line-text'>
-            <div className={`text-container ${isActive ? "active" : ""}`} onClick={handleClick}>
-              <span>Hover over me!</span>
-            </div>
+            {items.map((item, index) => (
+              <div
+                key={index}
+                className={`text-container ${activeIndex === index ? "active" : ""}`}
+                onClick={() => handleClick(index)}
+              >
+                <Link href={item.to} className='hover-effect'>
+                  {item.label}
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
         <div className='w-1/2 p-4'>
