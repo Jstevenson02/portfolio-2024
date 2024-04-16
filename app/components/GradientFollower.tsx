@@ -29,7 +29,7 @@ const GradientFollower: React.FC<GradientFollowerProps> = ({ children }) => {
         background: `radial-gradient(circle 450px at ${gradient.x}% ${gradient.y}%, #2b2b2b, #1A1C1D)`,
       }}
     >
-      {children} {/* Render children inside the div */}
+      {children}
     </div>
   );
 };
