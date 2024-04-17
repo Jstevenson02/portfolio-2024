@@ -10,8 +10,8 @@ export default function Home() {
         <Hero />
         <Navbar />
       </div>
-      <div className='w-screen'>
-        <div id='about' className='bg-red-500'>
+      <div className='flex flex-col w-screen'>
+        <div id='about' className=''>
           <ExperienceCard experiences={experiences} />
         </div>
         <div id='experience' className=''>
