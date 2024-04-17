@@ -43,7 +43,7 @@ body {
   width: 50px; /* Initial width of the line */
   height: 1px;
   background-color: #9b9b9b; /* Tailwind blue-500 */
-  transform: scaleX(0.5);
+  transform: scaleX(0);
   transition: transform 0.2s ease;
   transform-origin: left;
 }

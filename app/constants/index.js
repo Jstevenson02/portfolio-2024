@@ -100,7 +100,7 @@ const experiences = [
     company_name: "Home",
     icon: computer,
     iconBg: "#FFFFFF",
-    date: "August 2010 - Present",
+    date: " 2010 - Present",
     points: [
       "Programming my first games using Scratch drag and drop low-code editor.",
       "Maintaining and tracking all of my class projects while in college using Git.",
@@ -113,7 +113,7 @@ const experiences = [
     company_name: "Southside Highschool",
     icon: cap,
     iconBg: "#FFFFFF",
-    date: "August  2016 - May 2020",
+    date: "  2016 -  2020",
     points: [
       "Work consisted of repairing staff and student computers and tablets.",
       "Configuring networking settings and remedy wifi connectivity issues.",
@@ -126,7 +126,7 @@ const experiences = [
     company_name: "Dog House Computers",
     icon: wrench,
     iconBg: "#FFFFFF",
-    date: "August  2019 - May 2020",
+    date: "  2019 - May 2020",
     points: [
       "Worked on end-user computers and servers.",
       "Fixed hardware, software and firmware issues.",
@@ -139,7 +139,7 @@ const experiences = [
     company_name: "Student",
     icon: cap,
     iconBg: "#FFFFFF",
-    date: "August 2020 - May 2021",
+    date: "2020 -  2021",
     points: [
       "Studied Computer Science in pursuit of a Bachelors degree",
       "Classes consisted of learning low level circuitry using logisim.",
@@ -165,7 +165,7 @@ const experiences = [
     company_name: "Student",
     icon: cap,
     iconBg: "#FFFFFF",
-    date: "August 2021 - May 2023",
+    date: "August 2021 -  2023",
     points: [
       "Studied legacy technologies in pursuit of an Associates of Applied Sciences",
       "Classes consisted of Java programming using JavaEE and Java Server Faces",

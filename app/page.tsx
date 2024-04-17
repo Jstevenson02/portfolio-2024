@@ -1,26 +1,23 @@
+import ExperienceCard from "./components/ExperienceCard";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import { experiences } from "./constants";
 
 export default function Home() {
   return (
-    <>
-      <div className='w-screen h-screen'>
-        <div className='w-1/2 p-28 h-screen fixed  '>
-          <Navbar />
-        </div>
-        <main>
-          <div className='ml-96 py-24'>
-            <h1 id='about' className='h-full'>
-              About
-            </h1>
-            <h2 id='experience' className='h-full'>
-              Experience
-            </h2>
-            <h3 id='projects' className='h-full'>
-              Projects
-            </h3>
-          </div>
-        </main>
+    <div className='flex w-screen h-screen overflow-scroll'>
+      <div className='w-screen bg-blue-600'>
+        <Hero />
+        <Navbar />
       </div>
-    </>
+      <div className='w-screen'>
+        <div id='about' className='bg-red-500'>
+          <ExperienceCard experiences={experiences} />
+        </div>
+        <div id='experience' className=''>
+          <ExperienceCard experiences={experiences} />
+        </div>
+      </div>
+    </div>
   );
 }
