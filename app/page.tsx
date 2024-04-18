@@ -17,26 +17,28 @@ export default function Home() {
   };
 
   return (
-    <div className='lg:flex lg:justify-between lg:gap-4'>
-      <div
-        className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24'
-        onWheel={handleWheel}
-      >
-        <div>
-          <Hero />
-          <Navbar />
+    <div className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0'>
+      <div className='lg:flex lg:justify-between lg:gap-4'>
+        <div
+          className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24'
+          onWheel={handleWheel}
+        >
+          <div>
+            <Hero />
+            <Navbar />
+          </div>
         </div>
-      </div>
-      <div ref={rightPanelRef}>
-        <div id='about'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus
-          quam.
+        <div className='pt-24 lg:w-1/2 lg:py-24' ref={rightPanelRef}>
+          <div id='about'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel
+            pretium lectus quam.
+          </div>
+          <div id='experience'>
+            <Card experiences={experiences} />
+          </div>
+          <div id='projects'>test</div>
         </div>
-        <div id='experience'>
-          <Card experiences={experiences} />
-        </div>
-        <div id='projects'>test</div>
       </div>
     </div>
   );

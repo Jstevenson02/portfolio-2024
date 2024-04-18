@@ -23,7 +23,6 @@ const GradientFollower: React.FC<GradientFollowerProps> = ({ children }) => {
 
   return (
     <div
-      className='h-screen w-screen'
       onMouseMove={handleMouseMove}
       style={{
         background: `radial-gradient(circle 450px at ${gradient.x}% ${gradient.y}%, #2b2b2b, #1A1C1D)`,
