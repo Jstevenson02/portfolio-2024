@@ -17,7 +17,7 @@ const NavItem: React.FC<NavItemProps> = ({ text, href, isActive }) => {
 
   return (
     <li>
-      <a className={` ${baseClasses} ${isActive ? "active" : ""}`} href={href}>
+      <a className={`${baseClasses} ${isActive ? "active" : ""}`} href={href}>
         <span className={indicatorClasses}></span>
         <span className={textClasses}>{text}</span>
       </a>

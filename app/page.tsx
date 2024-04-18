@@ -26,7 +26,7 @@ export default function Home() {
           onWheel={handleWheel}
         >
           <Hero />
-          <div className='py-10'>
+          <div className='py-16'>
             <Navbar />
           </div>
           <div className='bottom-0 fixed'>
