@@ -14,9 +14,9 @@ interface ExperienceCardProps {
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experiences }) => {
   return (
-    <div className='grid grid-cols-1 gap-4 w-1/2 '>
+    <div className='grid grid-cols-1 gap-4'>
       {experiences.map((experience, index) => (
-        <div key={index} className='card  rounded-lg p-4'>
+        <div key={index} className='card  rounded-lg p-4 outline hover:outline-red-600'>
           <div className='flex items-center space-x-3 mb-4'>
             <div>
               <h5 className='text-lg font-bold'>{experience.title}</h5>
