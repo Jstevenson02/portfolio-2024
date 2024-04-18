@@ -20,7 +20,7 @@ export default function Home() {
     <div className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0'>
       <div className='lg:flex lg:justify-between lg:gap-4'>
         <div
-          className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24'
+          className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-2'
           onWheel={handleWheel}
         >
           <div>
@@ -28,16 +28,31 @@ export default function Home() {
             <Navbar />
           </div>
         </div>
-        <div className='pt-24 lg:w-1/2 lg:py-24' ref={rightPanelRef}>
-          <div id='about'>
+        <div className=' lg:w-1/2 lg:py-24' ref={rightPanelRef}>
+          <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#1A1C1D]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
+            <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>
+              About
+            </h2>
+          </div>
+          <div id='about' className='py-10 lg:py-2'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel
             pretium lectus quam.
           </div>
+          <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#1A1C1D]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
+            <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>
+              Experience
+            </h2>
+          </div>
           <div id='experience'>
             <Card experiences={experiences} />
           </div>
-          <div id='projects'>test</div>
+          <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#1A1C1D]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
+            <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>
+              Projects
+            </h2>
+          </div>
+          <div>Projects Here</div>
         </div>
       </div>
     </div>
