@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import SocialMediaLinks from "./components/SocialMediaLinks";
+import Links from "./components/Links";
 
 export default function Home() {
   const rightPanelRef = useRef<HTMLDivElement>(null);
@@ -27,6 +28,7 @@ export default function Home() {
           <div>
             <Hero />
             <Navbar />
+            <Links />
           </div>
         </div>
         <div className=' lg:w-1/2 lg:py-24' ref={rightPanelRef}>
