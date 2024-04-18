@@ -54,7 +54,7 @@ const Card: React.FC<ExperienceCardProps> = ({ experiences }) => {
                   <div className='text-slate-500'>{experience.company_name}</div>
                 </div>
               </h3>
-              <div className='mt-2 text-sm leading-normal'>
+              <div className='mt-2 text-sm leading-normal text-[#828282]'>
                 {experience.points.map((point, idx) => (
                   <div key={idx}>{point}</div>
                 ))}
