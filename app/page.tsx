@@ -5,6 +5,7 @@ import { experiences } from "./constants";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import SocialMediaLinks from "./components/SocialMediaLinks";
 
 export default function Home() {
   const rightPanelRef = useRef<HTMLDivElement>(null);
@@ -34,7 +35,7 @@ export default function Home() {
               About
             </h2>
           </div>
-          <div id='about' className='py-10 lg:py-2'>
+          <div id='about' className='pb-10 pt-2'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel
             pretium lectus quam.
