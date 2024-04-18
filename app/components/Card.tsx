@@ -56,7 +56,9 @@ const Card: React.FC<ExperienceCardProps> = ({ experiences }) => {
               </h3>
               <div className='mt-2 text-sm leading-normal text-[#828282]'>
                 {experience.points.map((point, idx) => (
-                  <div key={idx}>{point}</div>
+                  <div className='mt-2' key={idx}>
+                    {point}
+                  </div>
                 ))}
               </div>
               {/* <ul className='mt-2 flex flex-wrap' aria-label='Technologies used'>
