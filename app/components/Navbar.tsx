@@ -9,15 +9,15 @@ interface NavItemProps {
 const NavItem: React.FC<NavItemProps> = ({ text, href, isActive }) => {
   const baseClasses = "group flex items-center py-3";
   const indicatorClasses = `nav-indicator mr-4 h-px w-8 transition-all ${
-    isActive ? "w-16 bg-slate-200" : "bg-slate-600 group-hover:w-16 group-hover:bg-slate-200"
+    isActive ? "w-[64px] bg-slate-200" : "bg-[#828282] group-hover:w-16 group-hover:bg-slate-200"
   } group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none`;
   const textClasses = `nav-text text-xs font-bold uppercase tracking-widest ${
-    isActive ? "text-slate-200" : "text-slate-500 group-hover:text-slate-200"
+    isActive ? "text-slate-200" : "text-[#828282] group-hover:text-slate-200"
   } group-focus-visible:text-slate-200`;
 
   return (
     <li>
-      <a className={`${baseClasses} ${isActive ? "active" : ""}`} href={href}>
+      <a className={` ${baseClasses} ${isActive ? "active" : ""}`} href={href}>
         <span className={indicatorClasses}></span>
         <span className={textClasses}>{text}</span>
       </a>
@@ -26,7 +26,7 @@ const NavItem: React.FC<NavItemProps> = ({ text, href, isActive }) => {
 };
 
 const Navbar: React.FC = () => {
-  const [activeLink, setActiveLink] = useState("#experience"); // default active link
+  const [activeLink, setActiveLink] = useState(""); // default active link
 
   useEffect(() => {
     const handleHashChange = () => {
