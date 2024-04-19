@@ -5,7 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  html,
+  HTML,
   css,
   reactjs,
   redux,
@@ -50,7 +50,7 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: HTML,
   },
   {
     name: "CSS 3",
@@ -96,6 +96,20 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Remote Service Engineer",
+    company_name: "Novatech",
+    icon: computer,
+    iconBg: "#FFFFFF",
+    date: " 2023 - Present",
+    points: [
+      "Created readable reusable documentation using Nextra.js.",
+      "Maintaining and tracking all of thousands of customers through database systems.",
+      "Developed end user tools in batch script to facilitate a smoother UX experience.",
+      "Troubleshooting, repairing and installing of large format MFP and industrial Copy machines",
+    ],
+    tech: ["TS", "React", "Nextra", "Batch", "Hardware", "Networking"],
+  },
+  {
     title: "South Louisiana Community College",
     company_name: "Student",
     icon: cap,
@@ -105,8 +119,9 @@ const experiences = [
       "Studied legacy technologies in pursuit of an Associates of Applied Sciences",
       "Classes consisted of Java programming using JavaEE and Java Server Faces",
       "Learning networking fundamentals through Cisco Netacad coursework",
-      "Programming classes were limited to the study of Java, HTML and C++",
+      "Programming classes were limited to the study of Java, HTML and C#",
     ],
+    tech: ["Java", "HTML", "C#", "JavaEE", "JSF"],
   },
   {
     title: "SysOps Technician",
@@ -120,6 +135,7 @@ const experiences = [
       "Optimized legacy procedures through usage of batch scripts for installing software.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    tech: ["Batch", "HTML", "CSS", "Azure AD"],
   },
   {
     title: "University of Louisiana at Lafayette",
@@ -133,6 +149,7 @@ const experiences = [
       "Developing math skills in Trigonometry and statistics.",
       "Programming classes were limited to the study of Python and C++",
     ],
+    tech: ["Java", "C++", "Python"],
   },
   {
     title: "IT Technician",
@@ -146,6 +163,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Throughout, I gained experience on Mac OS, Windows and Linux systems.",
     ],
+    tech: ["Hardware", "Mac", "Windows", "Linux"],
   },
   {
     title: "IT Lead Technician",
@@ -159,6 +177,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Managing the registration and distribution of technology around campus.",
     ],
+    tech: ["Java", "HTML", "C++", "JavaEE", "JSF"],
   },
   {
     title: "Self Taught Developer",
@@ -172,6 +191,7 @@ const experiences = [
       "Collaborating with my friends using Gitlab to maintain structure on our projects.",
       "Developing and maintaining web applications using React.js and other related technologies.",
     ],
+    tech: ["JS", "React", "React Native", "TS", "MERN", "CRUD"],
   },
 ];
 

@@ -29,7 +29,7 @@ export default function Home() {
           <div className='py-16'>
             <Navbar />
           </div>
-          <div className='bottom-0 fixed'>
+          <div className='lg:bottom-0 lg:fixed'>
             <Links />
           </div>
         </div>
