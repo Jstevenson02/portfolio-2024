@@ -153,6 +153,7 @@ const experiences = [
     date: "  2016 -  2020",
     points:
       "Work consisted of repairing staff and student computers and tablets. Configuring networking settings and remedy wifi connectivity issues. Implementing responsive design and ensuring cross-browser compatibility. Managing the registration and distribution of technology around campus.",
+
     tech: ["Java", "HTML", "C++", "JavaEE", "JSF"],
   },
   {
@@ -198,36 +199,7 @@ const projects = [
   {
     name: "Blippy Image Engine",
     description: "Custom Vector Indexing AI desktop application.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap-css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "violet-text-gradient",
-      },
-      {
-        name: "docker",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "sqlite3",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "electron",
-        color: "blue-text-gradient",
-      },
-    ],
+    tags: ["react", "django", "bootstrap-css", "python", "docker", "sqlite3", "electron"],
     image: blippy,
     live_code_link: "https://github.com/Jstevenson02",
     source_code_link: "https://github.com/Jstevenson02",
@@ -235,20 +207,7 @@ const projects = [
   {
     name: "Walter AI",
     description: "API Wrapper for Open AI's generative Davinci model.",
-    tags: [
-      {
-        name: "django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap-css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sqlite3",
-        color: "pink-text-gradient",
-      },
-    ],
+    tags: ["django", "bootstrap-css", "sqlite3"],
     image: walter,
     live_code_link: "https://github.com/Jstevenson02",
     source_code_link: "https://github.com/Jstevenson02",
@@ -256,20 +215,7 @@ const projects = [
   {
     name: "YouToon",
     description: "RapidAPI YouTube clone web application.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
+    tags: ["react", "rapidapi", "material-ui"],
     image: youtoon,
     live_code_link: "https://youtube-clone-six-henna.vercel.app/",
     source_code_link: "https://github.com/Jstevenson02/youtube-clone",
@@ -277,20 +223,7 @@ const projects = [
   {
     name: "Fitness Club",
     description: "RapidAPI Fitness Database web application",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
+    tags: ["react", "rapidapi", "material-ui"],
     image: fitclub,
     live_code_link: "https://fitness-club-six.vercel.app/",
     source_code_link: "https://github.com/Jstevenson02/fitness-react",
@@ -298,20 +231,7 @@ const projects = [
   {
     name: "E-Commerce Store",
     description: "Full-Stack CRUD E-commerce Store with sign-up and admin panel.",
-    tags: [
-      {
-        name: "javascript",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripeapi",
-        color: "pink-text-gradient",
-      },
-    ],
+    tags: ["javascript", "mongodb", "stripeapi"],
     image: ecommerce,
     live_code_link: "https://handmade-bydesign.com/",
     source_code_link: "https://github.com/Jstevenson02/",
@@ -319,20 +239,7 @@ const projects = [
   {
     name: "Quote Generator",
     description: "HTML, CSS and JavaScript random quote generator.",
-    tags: [
-      {
-        name: "javascript",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
+    tags: ["javascript", "HTML", "CSS"],
     image: quotegenerator,
     live_code_link: "https://random-quote-generator-ten-kappa.vercel.app/",
     source_code_link:
