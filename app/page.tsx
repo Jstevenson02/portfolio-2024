@@ -40,7 +40,7 @@ export default function Home() {
               About
             </h2>
           </div>
-          <div id='about' className='pb-32 pt-2 text-[#9B9B9B]'>
+          <div className='pb-32 pt-2 text-[#9B9B9B]'>
             Back in 2010, at eight years old, I was given my first computer and never looked back.
             In those early years I &quot;wrote&quot; <span className='text-slate-200'>Scratch</span>{" "}
             programs using the low-code drag and drop editor. Accelerate to today I use{" "}
