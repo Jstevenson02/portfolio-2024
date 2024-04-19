@@ -5,7 +5,7 @@ interface Experience {
   company_name: string;
   iconBg: string;
   date: string;
-  points: string[];
+  points: string;
   tech: string[];
 }
 
@@ -13,7 +13,7 @@ interface ExperienceCardProps {
   experiences: Experience[];
 }
 
-const Card: React.FC<ExperienceCardProps> = ({ experiences }) => {
+const ExperienceCard: React.FC<ExperienceCardProps> = ({ experiences }) => {
   return (
     <>
       {experiences.map((experience, index) => (
@@ -21,7 +21,7 @@ const Card: React.FC<ExperienceCardProps> = ({ experiences }) => {
           <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover:list:opacity-50'>
             <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-[#191B1C]/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
             <header
-              className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2'
+              className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-[#9B9B9B] sm:col-span-2'
               aria-label={experience.date}
             >
               {experience.date}
@@ -30,7 +30,7 @@ const Card: React.FC<ExperienceCardProps> = ({ experiences }) => {
               <h3 className='font-medium leading-snug text-slate-200'>
                 <div>
                   <a
-                    className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-[#A800FF] focus-visible:text-[#A800FF] group/link text-base'
+                    className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-purple-500 focus-visible:text-purple-500 group/link text-base'
                     href={""}
                     target='_blank'
                     rel='noreferrer noopener'
@@ -51,21 +51,17 @@ const Card: React.FC<ExperienceCardProps> = ({ experiences }) => {
                     </svg>
                   </a>
                 </div>
-                <div>
-                  <div className='text-slate-500'>{experience.company_name}</div>
+                <div className='pt-1'>
+                  <div className='text-[#9B9B9B]'>{experience.company_name}</div>
                 </div>
               </h3>
-              <div className='mt-2 text-sm leading-normal text-[#828282]'>
-                {experience.points.map((point) => (
-                  <div className='mt-2' key={point}>
-                    {point}
-                  </div>
-                ))}
+              <div className='mt-2 text-sm text-[13px] leading-normal text-[#828282]'>
+                <div className='mt-2'>{experience.points}</div>
               </div>
               <ul className='mt-2 flex flex-wrap' aria-label='Technologies used'>
                 {experience.tech.map((tech) => (
                   <li key={tech} className='mr-1.5 mt-2'>
-                    <div className='flex items-center rounded-full bg-[#A800FF]/10 px-3 py-1 text-xs font-medium leading-5 text-[#E2E8F0]'>
+                    <div className='flex items-center rounded-full bg-[#A800FF]/10 px-3 py-1 text-xs font-medium leading-5 text-purple-300'>
                       {tech}
                     </div>
                   </li>
@@ -79,4 +75,4 @@ const Card: React.FC<ExperienceCardProps> = ({ experiences }) => {
   );
 };
 
-export default Card;
+export default ExperienceCard;

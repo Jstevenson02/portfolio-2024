@@ -4,9 +4,10 @@ import { WheelEvent, useRef } from "react";
 import { experiences } from "./constants";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Card from "./components/Card";
-import SocialMediaLinks from "./components/SocialMediaLinks";
+import ExperienceCard from "./components/ExperienceCard";
 import Links from "./components/Links";
+import Link from "next/link";
+import ProjectCard from "./components/ProjectCard";
 
 export default function Home() {
   const rightPanelRef = useRef<HTMLDivElement>(null);
@@ -26,7 +27,7 @@ export default function Home() {
           onWheel={handleWheel}
         >
           <Hero />
-          <div className='py-16'>
+          <div className='lg:py-16'>
             <Navbar />
           </div>
           <div className='lg:bottom-0 lg:fixed'>
@@ -39,25 +40,30 @@ export default function Home() {
               About
             </h2>
           </div>
-          <div id='about' className='pb-10 pt-2'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel
-            pretium lectus quam.
+          <div id='about' className='pb-32 pt-2 text-[#9B9B9B]'>
+            Back in 2010, at eight years old, I was given my first computer and never looked back.
+            In those early years I &quot;wrote&quot; <span className='text-slate-200'>Scratch</span>{" "}
+            programs using the low-code drag and drop editor. Accelerate to today I use{" "}
+            <span className='text-slate-200'>React</span> and{" "}
+            <span className='text-slate-200'>TypeScript</span> to write{" "}
+            <span className='text-slate-200'>Full-Stack</span> web apps.
           </div>
           <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#1A1C1D]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
             <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>
-              Experience
+              <Link href='/#experience'>Experience</Link>
             </h2>
           </div>
           <div id='experience'>
-            <Card experiences={experiences} />
+            <ExperienceCard experiences={experiences} />
           </div>
           <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#1A1C1D]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
             <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>
-              Projects
+              <Link href='/#projects'>Projects</Link>
             </h2>
           </div>
-          <div>Projects Here</div>
+          <div className='mt-32' id='projects'>
+            <ProjectCard />
+          </div>
         </div>
       </div>
     </div>

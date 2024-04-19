@@ -101,12 +101,8 @@ const experiences = [
     icon: computer,
     iconBg: "#FFFFFF",
     date: " 2023 - Present",
-    points: [
-      "Created readable reusable documentation using Nextra.js.",
-      "Maintaining and tracking all of thousands of customers through database systems.",
-      "Developed end user tools in batch script to facilitate a smoother UX experience.",
-      "Troubleshooting, repairing and installing of large format MFP and industrial Copy machines",
-    ],
+    points:
+      "Created readable reusable documentation using Nextra.js. Maintaining and tracking all of thousands of customers through database systems. Developed end user tools in batch script to facilitate a smoother UX experience. Troubleshooting, repairing and installing of large format MFP and industrial Copy machines.",
     tech: ["TS", "React", "Nextra", "Batch", "Hardware", "Networking"],
   },
   {
@@ -115,12 +111,8 @@ const experiences = [
     icon: cap,
     iconBg: "#FFFFFF",
     date: "2021 -  2023",
-    points: [
-      "Studied legacy technologies in pursuit of an Associates of Applied Sciences",
-      "Classes consisted of Java programming using JavaEE and Java Server Faces",
-      "Learning networking fundamentals through Cisco Netacad coursework",
-      "Programming classes were limited to the study of Java, HTML and C#",
-    ],
+    points:
+      "Studied legacy technologies in pursuit of an Associates of Applied Sciences. Classes consisted of Java programming using JavaEE and Java Server Faces. Learning networking fundamentals through Cisco Netacad coursework.",
     tech: ["Java", "HTML", "C#", "JavaEE", "JSF"],
   },
   {
@@ -129,12 +121,8 @@ const experiences = [
     icon: stuller,
     iconBg: "#FFFFFF",
     date: "2021 - 2022",
-    points: [
-      "Answered internal phone calls, troubleshoot user issues using remote software.",
-      "Repaired, deployed and designed hardware and software solutions for internal users and departments.",
-      "Optimized legacy procedures through usage of batch scripts for installing software.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    points:
+      "Answered internal phone calls, troubleshoot user issues using remote software. Repaired, deployed and designed hardware and software solutions for internal users and departments. Optimized legacy procedures through usage of batch scripts for installing software. Participating in code reviews and providing constructive feedback to other developers.",
     tech: ["Batch", "HTML", "CSS", "Azure AD"],
   },
   {
@@ -143,13 +131,9 @@ const experiences = [
     icon: cap,
     iconBg: "#FFFFFF",
     date: "2020 - 2021",
-    points: [
-      "Studied Computer Science in pursuit of a Bachelors degree",
-      "Classes consisted of learning low level circuitry using logisim.",
-      "Developing math skills in Trigonometry and statistics.",
-      "Programming classes were limited to the study of Python and C++",
-    ],
-    tech: ["Java", "C++", "Python"],
+    points:
+      "Studied Computer Science in pursuit of a Bachelors degree. Classes consisted of learning low level circuitry using logisim. Developing math skills in Trigonometry and statistics. Programming in C++, C and Python",
+    tech: ["Java", "C++", "Python", "C"],
   },
   {
     title: "IT Technician",
@@ -157,12 +141,8 @@ const experiences = [
     icon: wrench,
     iconBg: "#FFFFFF",
     date: "  2019 - May 2020",
-    points: [
-      "Worked on end-user computers and servers.",
-      "Fixed hardware, software and firmware issues.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Throughout, I gained experience on Mac OS, Windows and Linux systems.",
-    ],
+    points:
+      "Worked on end-user computers and servers. Fixed hardware, software and firmware issues. Implementing responsive design and ensuring cross-browser compatibility. Throughout, I gained experience on Mac OS, Windows and Linux systems.",
     tech: ["Hardware", "Mac", "Windows", "Linux"],
   },
   {
@@ -171,12 +151,8 @@ const experiences = [
     icon: cap,
     iconBg: "#FFFFFF",
     date: "  2016 -  2020",
-    points: [
-      "Work consisted of repairing staff and student computers and tablets.",
-      "Configuring networking settings and remedy wifi connectivity issues.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Managing the registration and distribution of technology around campus.",
-    ],
+    points:
+      "Work consisted of repairing staff and student computers and tablets. Configuring networking settings and remedy wifi connectivity issues. Implementing responsive design and ensuring cross-browser compatibility. Managing the registration and distribution of technology around campus.",
     tech: ["Java", "HTML", "C++", "JavaEE", "JSF"],
   },
   {
@@ -185,12 +161,8 @@ const experiences = [
     icon: computer,
     iconBg: "#FFFFFF",
     date: " 2010 - Present",
-    points: [
-      "Programming my first games using Scratch drag and drop low-code editor.",
-      "Maintaining and tracking all of my class projects while in college using Git.",
-      "Collaborating with my friends using Gitlab to maintain structure on our projects.",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-    ],
+    points:
+      "Programming my first games using Scratch drag and drop low-code editor. Maintaining and tracking all of my class projects while in college using Git. Collaborating with my friends using Gitlab to maintain structure on our projects. Developing and maintaining web applications using React.js and other related technologies.",
     tech: ["JS", "React", "React Native", "TS", "MERN", "CRUD"],
   },
 ];
