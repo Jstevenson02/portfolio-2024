@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className='nav hidden lg:block lg:py-16' aria-label='In-page jump links'>
+    <nav className='nav hidden lg:block' aria-label='In-page jump links'>
       <ul className='w-max'>
         <NavItem text='About' href='#about' isActive={activeLink === "#about"} />
         <NavItem text='Experience' href='#experience' isActive={activeLink === "#experience"} />
