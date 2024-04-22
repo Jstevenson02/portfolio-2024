@@ -24,7 +24,7 @@ export default function Home() {
       {/* Left Container */}
       <div>
         <div
-          className='flex flex-col top-0 bottom-0 px-6 py-10 space-y-10 lg:w-1/3 lg:fixed'
+          className='flex flex-col top-0 bottom-0 px-6 py-10 space-y-10 lg:px-20 lg:py-20 lg:w-1/3 lg:fixed'
           onWheel={handleWheel}
         >
           <Hero />
