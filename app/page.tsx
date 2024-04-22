@@ -33,7 +33,7 @@ export default function Home() {
       {/* Right panel */}
       <div>
         <div
-          className='ml-auto max-w-screen-xl lg:w-1/2 lg:overflow-auto flex flex-col justify-center pr-10'
+          className='ml-auto max-w-screen-xl lg:w-1/2 lg:overflow-hidden flex flex-col justify-center pr-10'
           ref={rightPanelRef}
         >
           <div className='mobileNavLink'>
