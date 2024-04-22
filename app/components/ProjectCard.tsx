@@ -52,7 +52,7 @@ const ProjectCardData: React.FC<ProjectCardDataProps> = ({
               </svg>
             </a>
           </h3>
-          <p className='mt-2 text-sm leading-normal'>{description}</p>
+          <p className='mt-2 text-sm leading-normal text-[#9B9B9B]'>{description}</p>
 
           <ul className='mt-2 flex flex-wrap' aria-label='Technologies used:'>
             {tags.map((tech, index) => (

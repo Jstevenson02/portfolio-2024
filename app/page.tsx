@@ -23,17 +23,22 @@ export default function Home() {
   return (
     <div className='lg:flex items-center justify-center min-h-screen'>
       {/* Left Container */}
-      <div className='lg:fixed top-0 bottom-0 lg:w-1/3 p-10 space-y-6' onWheel={handleWheel}>
-        <Hero />
-        <nav>
-          <Navbar />
-        </nav>
+      <div>
+        <div
+          className='flex flex-col top-0 bottom-0 p-20 space-y-10 lg:w-1/3 lg:fixed'
+          onWheel={handleWheel}
+        >
+          <Hero />
+          <nav>
+            <Navbar />
+          </nav>
+        </div>
       </div>
 
       {/* Right panel */}
       <div>
         <div
-          className='ml-auto max-w-screen-xl lg:w-1/2 lg:overflow-hidden flex flex-col justify-center pr-10'
+          className='flex flex-col justify-center pr-10 ml-auto max-w-screen-xl lg:w-1/2 lg:overflow-hidden '
           ref={rightPanelRef}
         >
           <div className='mobileNavLink'>
