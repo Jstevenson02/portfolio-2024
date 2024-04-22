@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import portal from "@/app/assets/portal.gif";
+import Image from "next/image";
 
 // Define interface for the component props
 interface ModalProps {
@@ -25,7 +27,7 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
         {/* Background overlay, also acts as a click outside to close */}
         <div className='fixed inset-0 transition-opacity' aria-hidden='true'>
           <div
-            className='absolute inset-0 bg-gray-500 opacity-75'
+            className='absolute inset-0 bg-black opacity-75'
             onClick={() => setShowModal(false)}
           ></div>
         </div>

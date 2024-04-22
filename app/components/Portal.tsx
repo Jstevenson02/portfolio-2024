@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import portal from "@/app/assets/portal.gif";
+import portal from "@/app/assets/portalGate.gif";
 import Modal from "./Modal";
 
 const Portal = () => {

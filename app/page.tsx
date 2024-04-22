@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         {/* Right panel */}
-        <div>
+        <div className='min-h-screen'>
           <div
             className='flex flex-col justify-center  ml-auto max-w-screen-xl lg:w-1/2 lg:overflow-hidden '
             ref={rightPanelRef}
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='md:flex hidden sm:block'>
+      <div className='sm:block hidden'>
         <Portal />
       </div>
     </>
