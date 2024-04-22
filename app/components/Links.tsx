@@ -3,7 +3,7 @@ import React from "react";
 
 const Links = () => {
   return (
-    <div className='flex gap-4 bottom-0 pb-12 md:fixed'>
+    <div className='flex gap-4 lg:py-20 lg:fixed lg:bottom-0'>
       <Link target='_blank' href={"https://github.com/Jstevenson02?tab=repositories"}>
         <svg
           xmlns='http://www.w3.org/2000/svg'

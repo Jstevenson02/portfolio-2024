@@ -6,7 +6,7 @@ const Hero = () => {
       <a className='text-4xl font-bold tracking-tight text-slate-200 lg:text-5xl' href='/'>
         Jacob Stevenson
       </a>
-      <h2 className='mt-3 text-base font-medium tracking-tight text-slate-200 lg:text-lg '>
+      <h2 className='mt-3 text-base font-medium tracking-tight text-slate-200  lg:text-lg '>
         Junior Frontend Engineer
       </h2>
       <p className='mt-4 max-w-sm text-[#9b9b9b] leading-normal'>
