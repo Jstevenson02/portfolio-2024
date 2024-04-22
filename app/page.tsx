@@ -1,14 +1,13 @@
 "use client";
 
 import { WheelEvent, useRef } from "react";
-import { experiences } from "./constants";
 import Hero from "./components/Hero";
 import ExperienceCard from "./components/ExperienceCard";
-import Links from "./components/Links";
 import Link from "next/link";
 import ProjectCard from "./components/ProjectCard";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
+import Links from "./components/Links";
 
 export default function Home() {
   const rightPanelRef = useRef<HTMLDivElement>(null);
@@ -25,13 +24,12 @@ export default function Home() {
       {/* Left Container */}
       <div>
         <div
-          className='flex flex-col top-0 bottom-0 p-20 space-y-10 lg:w-1/3 lg:fixed'
+          className='flex flex-col top-0 bottom-0 px-6 py-10 space-y-10 lg:w-1/3 lg:fixed'
           onWheel={handleWheel}
         >
           <Hero />
-          <nav>
-            <Navbar />
-          </nav>
+          <Navbar />
+          <Links />
         </div>
       </div>
 
