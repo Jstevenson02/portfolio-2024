@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 
-const Modal = ({ showModal, setShowModal }) => {
+// Define interface for the component props
+interface ModalProps {
+  showModal: boolean;
+  setShowModal: (show: boolean) => void;
+}
+
+const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
   // Effect to disable and enable scrolling
   useEffect(() => {
     if (showModal) {
@@ -48,7 +54,10 @@ const Modal = ({ showModal, setShowModal }) => {
             <button
               type='button'
               className='w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm'
-              onClick={() => setShowModal(false)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowModal(false);
+              }}
             >
               Close
             </button>

@@ -29,9 +29,9 @@ export default function Home() {
             onWheel={handleWheel}
           >
             <Hero />
-            <div className='lg:py-16'>
-              <Navbar />
-            </div>
+
+            <Navbar />
+
             <div className='lg:bottom-0 lg:fixed'>
               <Links />
             </div>
@@ -68,9 +68,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <div className='flex w-full justify-end'>
-        <Portal />
       </div>
     </>
   );
