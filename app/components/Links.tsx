@@ -1,10 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import Portal from "./Portal";
 
 const Links = () => {
   return (
-    <div className='flex py-6 gap-4 lg:pb-20'>
+    <div className='flex gap-4'>
       <Link href={"https://github.com/Jstevenson02?tab=repositories"}>
         <svg
           xmlns='http://www.w3.org/2000/svg'

@@ -58,7 +58,7 @@ export default function Home() {
           <ProjectCard />
         </div>
       </div>
-      <div className='lg:bottom-0 lg:fixed'>
+      <div className='lg:bottom-0 lg:fixed p-6 flex justify-center items-center'>
         <Links />
       </div>
     </div>
