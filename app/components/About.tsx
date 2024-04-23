@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <p className='text-[#9B9B9B]'>
+      <p className='text-[#9B9B9B] text-[14px]'>
         Back in 2010, at eight years old, I was given my first computer and never looked back. In
         those early years I &quot;wrote&quot; <span className='text-slate-200'>Scratch</span>{" "}
         programs using the low-code drag and drop editor. Accelerate to today I use{" "}
