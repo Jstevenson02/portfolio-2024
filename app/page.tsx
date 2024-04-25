@@ -95,16 +95,14 @@ export default function Home() {
               <ProjectCard />
               <div className='mt-12'>
                 <a
-                  className='inline-flex items-center  leading-tight text-slate-200 font-semibold group'
+                  className='inline-flex items-center leading-tight text-slate-200 font-semibold group'
                   aria-label='View Full Project Archive'
-                  href='/archive'
+                  href='/projects'
                 >
                   <span>
-                    <span className='border-b border-transparent pb-px transition group-hover:border-purple-600 motion-reduce:transition-none'></span>
+                    <span className='span-underline'></span>
                     <span className='whitespace-nowrap'>
-                      <span className='border-b border-transparent pb-px transition group-hover:border-purple-600 motion-reduce:transition-none'>
-                        View Full Project Archive
-                      </span>
+                      <span className='span-underline'>View Full Project Archive</span>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
                         viewBox='0 0 20 20'

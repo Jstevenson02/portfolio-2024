@@ -195,6 +195,29 @@ const testimonials = [
   },
 ];
 
+const project_archive = [
+  {
+    pro: "Express",
+    ject: "Scripts",
+    project_fullname: "Express Scripts",
+    made_at: "Home",
+    date: 2024,
+    project_link: "http://localhost:3000",
+    project_link_string: "localhost:3000",
+    tech: "Next.js",
+  },
+  {
+    pro: "One",
+    ject: "Two",
+    project_fullname: "One Two",
+    made_at: "Home",
+    date: 2023,
+    project_link: "http://localhost:3000",
+    project_link_string: "localhost:3000",
+    tech: "Next.js",
+  },
+];
+
 const projects = [
   {
     name: "Blippy Image Engine",
@@ -247,4 +270,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, project_archive };

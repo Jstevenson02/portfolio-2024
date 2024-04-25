@@ -17,3 +17,7 @@
 .mobileNavLink {
   @apply text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only;
 }
+
+.span-underline {
+  @apply border-b border-transparent pb-px transition group-hover:border-purple-600 motion-reduce:transition-none;
+}
