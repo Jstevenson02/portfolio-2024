@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  margin: 0;
   background-color: #1a1c1d;
   color: #f4f4f4;
   -webkit-font-smoothing: antialiased;
