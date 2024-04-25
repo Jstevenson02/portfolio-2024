@@ -38,14 +38,21 @@ export default function Home() {
         </header>
 
         {/* Right panel */}
+
         <main className='pt-24 lg:w-1/2 lg:py-24' ref={rightPanelRef}>
           <section id='about' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24'>
+            <div className='mobileNavBg'>
+              <h2 className='mobileNavLink'>About</h2>
+            </div>
             <div>
               <About />
             </div>
           </section>
 
           <section id='experience' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24'>
+            <div className='mobileNavBg'>
+              <h2 className='mobileNavLink'>Experience</h2>
+            </div>
             <div className='px-10 py-10'>
               <ExperienceCard />
               <div className='mb-10'>
@@ -81,10 +88,14 @@ export default function Home() {
           </section>
 
           <section id='projects' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24'>
+            <div className='mobileNavBg'>
+              <h2 className='mobileNavLink'>Projects</h2>
+            </div>
             <div className='px-10'>
               <ProjectCard />
             </div>
           </section>
+
           <Footer />
         </main>
         <Portal />
