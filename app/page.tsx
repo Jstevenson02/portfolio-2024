@@ -53,7 +53,7 @@ export default function Home() {
             <div className='mobileNavBg'>
               <h2 className='mobileNavLink'>Experience</h2>
             </div>
-            <div className='px-10 py-10'>
+            <div>
               <ExperienceCard />
               <div className='mb-10'>
                 <a

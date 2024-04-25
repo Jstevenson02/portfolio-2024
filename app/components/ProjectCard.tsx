@@ -84,11 +84,11 @@ const ProjectCardData: React.FC<ProjectCardDataProps> = ({
 
 const ProjectCard = () => {
   return (
-    <ul className='group/list'>
+    <ol className='group/list'>
       {projects.map((project, index) => (
         <ProjectCardData key={index} {...project} />
       ))}
-    </ul>
+    </ol>
   );
 };
 
