@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import portal from "@/app/assets/portal.gif";
-import Image from "next/image";
 
 // Define interface for the component props
 interface ModalProps {

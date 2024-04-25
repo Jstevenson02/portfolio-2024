@@ -1,6 +1,7 @@
 "use client";
 
 import { WheelEvent, useRef } from "react";
+import Link from "next/link";
 import Hero from "./components/Hero";
 import ExperienceCard from "./components/ExperienceCard";
 import ProjectCard from "./components/ProjectCard";
@@ -24,7 +25,7 @@ export default function Home() {
       <div className='lg:flex items-center justify-center min-h-screen'>
         {/* Left Container */}
         <div
-          className='bottom-0 px-10 py-10 space-y-10 min-h-96 lg:flex lg:flex-col lg:top-0 lg:px-20 lg:py-20 lg:w-1/3 lg:fixed'
+          className='bottom-0 px-10 py-10 space-y-10 lg:flex lg:flex-col lg:top-0 lg:px-20 lg:py-20 lg:w-1/3 lg:fixed'
           onWheel={handleWheel}
         >
           <Hero />
@@ -97,9 +98,6 @@ export default function Home() {
             </section>
           </div>
         </div>
-      </div>
-      <div className='sm:block hidden'>
-        <Portal />
       </div>
     </>
   );
