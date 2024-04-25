@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html id='about' lang='en' className='scroll-smooth select-none'>
+    <html lang='en' className='scroll-smooth select-none'>
       <body className={inter.className}>
         <GradientFollower>{children}</GradientFollower>
       </body>

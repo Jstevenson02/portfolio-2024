@@ -106,7 +106,7 @@ const experiences = [
     tech: ["TS", "React", "Nextra", "Batch", "Hardware", "Networking"],
   },
   {
-    title: "South Louisiana Community College",
+    title: "SLCC",
     company_name: "Student",
     icon: cap,
     iconBg: "#FFFFFF",
@@ -126,7 +126,7 @@ const experiences = [
     tech: ["Batch", "HTML", "CSS", "Azure AD"],
   },
   {
-    title: "University of Louisiana at Lafayette",
+    title: "ULL",
     company_name: "Student",
     icon: cap,
     iconBg: "#FFFFFF",
