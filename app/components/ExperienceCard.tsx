@@ -60,9 +60,7 @@ const ExperienceCardData: React.FC<ExperienceCardDataProps> = ({
               </a>
             </div>
           </h3>
-          <div className='mt-2 text-sm text-[13px] leading-normal text-[#828282]'>
-            <div className='mt-2 text-[13px]'>{points}</div>
-          </div>
+          <p className='mt-2 text-sm leading-normal text-[#828282]'>{points}</p>
           <ul className='mt-2 flex flex-wrap' aria-label='Technologies used'>
             {tech.map((techs, idx) => (
               <li key={idx} className='mr-1.5 mt-2'>

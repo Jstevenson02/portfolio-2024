@@ -9,15 +9,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.navLink {
-  color: #9b9b9b;
-}
-
-.mobileNavLink {
-  @apply sticky top-0 z-20 mx-auto w-screen bg-[#1A1C1D]/45 px-6 py-5 backdrop-blur lg:opacity-0;
-}
-
-.mobileNavText {
-  @apply text-sm font-bold uppercase tracking-widest text-slate-200;
-}
