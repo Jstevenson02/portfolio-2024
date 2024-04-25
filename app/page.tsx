@@ -26,7 +26,7 @@ export default function Home() {
         {/* Left Container */}
         <div>
           <div
-            className='bottom-0 px-10 py-10 space-y-10 lg:flex lg:flex-col lg:top-0 lg:px-20 lg:py-20 lg:w-1/3 lg:fixed'
+            className='bottom-0 px-10 py-10 space-y-10 min-h-96 lg:flex lg:flex-col lg:top-0 lg:px-20 lg:py-20 lg:w-1/3 lg:fixed'
             onWheel={handleWheel}
           >
             <Hero />
@@ -44,7 +44,7 @@ export default function Home() {
             <div className='mobileNavLink'>
               <h2 className='mobileNavText px-4'>About</h2>
             </div>
-            <div className='px-10 py-10 lg:py-0'>
+            <div className='px-10 py-10 lg:py-4'>
               <About />
             </div>
             <div className='mobileNavLink'>
@@ -76,9 +76,9 @@ export default function Home() {
                         aria-hidden='true'
                       >
                         <path
-                          fill-rule='evenodd'
+                          fillRule='evenodd'
                           d='M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z'
-                          clip-rule='evenodd'
+                          clipRule='evenodd'
                         ></path>
                       </svg>
                     </span>

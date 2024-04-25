@@ -2,15 +2,15 @@
      strokeLinecap="square" strokeMiterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns="http://www.w3.org/2000/svg">
     <clipPath id="p.0">
-        <path d="m0 0l890.6116 0l0 688.68506l-890.6116 0l0 -688.68506z" clip-rule="nonzero" />
+        <path d="m0 0l890.6116 0l0 688.68506l-890.6116 0l0 -688.68506z" clipRule="nonzero" />
     </clipPath>
     <g clip-path="url(#p.0)">
-        <path fill="#000000" fill-opacity="0.0" d="m0 0l890.6116 0l0 688.68506l-890.6116 0z" fill-rule="evenodd" />
+        <path fill="#000000" fill-opacity="0.0" d="m0 0l890.6116 0l0 688.68506l-890.6116 0z" fillRule="evenodd" />
         <path fill="#000000" fill-opacity="0.0" d="m-0.6824147 0.34251967l891.97644 0l0 687.99994l-891.97644 0z"
-              fill-rule="evenodd" />
+              fillRule="evenodd" />
         <g transform="matrix(0.6731897637795276 0.0 0.0 0.6731897637795276 -0.6824146981627297 0.3425196850393701)">
             <clipPath id="p.1">
-                <path d="m0 0l1325.0 0l0 1022.0l-1325.0 0z" clip-rule="evenodd" />
+                <path d="m0 0l1325.0 0l0 1022.0l-1325.0 0z" clipRule="evenodd" />
             </clipPath>
             <image clip-path="url(#p.1)" fill="#000" width="1325.0" height="1022.0" x="0.0" y="0.0"
                    preserveAspectRatio="none"
