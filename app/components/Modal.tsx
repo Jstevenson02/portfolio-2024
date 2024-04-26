@@ -28,7 +28,10 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
         <div className='fixed inset-0 transition-opacity' aria-hidden='true'>
           <div
             className='absolute inset-0 bg-black opacity-75'
-            onClick={() => setShowModal(false)}
+            onClick={(e) => {
+              e.stopPropagation();
+              setShowModal(false);
+            }}
           ></div>
         </div>
 
@@ -36,12 +39,14 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
         <span className='hidden sm:inline-block sm:align-middle sm:h-screen' aria-hidden='true'>
           &#8203;
         </span>
-        <div className='inline-block align-bottomrounded-lg text-left shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full'>
-          <Image
-            src={portal}
-            className='w-[1500px] h-[600px] -scale-y-150 scale-x-150'
-            alt='portal'
-          />
+        <div className='inline-block bg-yellow-50  text-left shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full'>
+          <div className='bg-yellow-300  h-[1000px] background-div'>
+            <div className='flex justify-center gap-4 w-full h-full'>
+              <div>Portfolio 1</div>
+              <div>Portfolio 1</div>
+            </div>
+          </div>
+
           <div className=' px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse'>
             <button
               type='button'

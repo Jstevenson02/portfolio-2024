@@ -21,3 +21,10 @@
 .span-underline {
   @apply border-b border-transparent pb-px transition group-hover:border-purple-600 motion-reduce:transition-none;
 }
+
+.background-div {
+  background-image: url(assets/portal_02.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
