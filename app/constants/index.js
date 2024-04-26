@@ -197,24 +197,14 @@ const testimonials = [
 
 const project_archive = [
   {
-    pro: "Express",
-    ject: "Scripts",
-    project_fullname: "Express Scripts",
-    made_at: "Home",
-    date: 2024,
-    project_link: "http://localhost:3000",
-    project_link_string: "localhost:3000",
-    tech: "Next.js",
-  },
-  {
-    pro: "One",
-    ject: "Two",
-    project_fullname: "One Two",
+    pro: "Quote",
+    ject: "Generator",
+    project_fullname: "Quote Generator",
     made_at: "Home",
     date: 2023,
-    project_link: "http://localhost:3000",
-    project_link_string: "localhost:3000",
-    tech: "Next.js",
+    project_link: "https://random-quote-generator-ten-kappa.vercel.app/",
+    project_link_string: "random-quote-generator.vercel.app",
+    tech: ["javascript", "HTML", "CSS"],
   },
 ];
 
