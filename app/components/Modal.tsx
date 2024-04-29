@@ -1,6 +1,10 @@
 import Image from "next/image";
 import portal from "@/app/assets/portal_02.gif";
+import portfolio23 from "@/app/assets/portfolio2023.png";
+import portfolio20 from "@/app/assets/portfolio2020.png";
 import React, { useEffect } from "react";
+import GradientFollower from "./GradientFollower";
+import GradientText from "./GradientText";
 
 // Define interface for the component props
 interface ModalProps {
@@ -22,12 +26,12 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
   if (!showModal) return null;
 
   return (
-    <div className='fixed inset-0 z-50 overflow-y-auto'>
-      <div className='flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0'>
+    <div className='fixed inset-0 z-50'>
+      <div className='flex items-end justify-center min-h-screen px-4 pb-20 text-center sm:block sm:p-0'>
         {/* Background overlay, also acts as a click outside to close */}
         <div className='fixed inset-0 transition-opacity' aria-hidden='true'>
           <div
-            className='absolute inset-0 bg-black opacity-75'
+            className='absolute inset-0 bg-black opacity-90'
             onClick={(e) => {
               e.stopPropagation();
               setShowModal(false);
@@ -39,11 +43,27 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
         <span className='hidden sm:inline-block sm:align-middle sm:h-screen' aria-hidden='true'>
           &#8203;
         </span>
-        <div className='inline-block bg-yellow-50  text-left shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full'>
-          <div className='bg-yellow-300  h-[1000px] background-div'>
-            <div className='flex justify-center gap-4 w-full h-full'>
-              <div>Portfolio 1</div>
-              <div>Portfolio 1</div>
+        <div className='inline-block background-div text-left shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full'>
+          <div className='h-screen'>
+            <GradientText text='Entering portal to the past...' colors={["#C05CFE", "#1A1C1D"]} />
+            <div className='text-4xl italic'></div>
+            <div className='flex gap-4 pt-96'>
+              <a
+                className='outline bg-[#1A1C1D] outline-[#1A1C1D]'
+                href='https://jacobrs.com/'
+                target='_blank'
+              >
+                <div className='flex justify-center'>Version 2</div>
+                <Image alt='portfolio23' src={portfolio23} />
+              </a>
+              <a
+                className='outline bg-[#1A1C1D] outline-[#1A1C1D]'
+                href='https://portfolio2-sable.vercel.app/'
+                target='_blank'
+              >
+                <div className='flex justify-center'>Version 1</div>
+                <Image alt='portfolio23' src={portfolio20} />
+              </a>
             </div>
           </div>
 
