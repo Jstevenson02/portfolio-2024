@@ -272,7 +272,7 @@ const project_archive = [
 const projects = [
   {
     name: "Imagen Photowebsite",
-    description: "SASS AI image generation web application.",
+    description: "SASS AI image generation web application",
     tags: ["react", "tailwind-css", "clerk", "mongoDB"],
     image: photoweb,
     live_code_link: "https://photoweb.site/",
@@ -280,7 +280,7 @@ const projects = [
   },
   {
     name: "Blippy Image Engine",
-    description: "Custom Vector Indexing AI desktop application.",
+    description: "Custom Vector Indexing AI desktop application",
     tags: ["react", "django", "bootstrap-css", "python", "docker", "sqlite3", "electron"],
     image: blippy,
     live_code_link: "https://github.com/Jstevenson02",
@@ -288,7 +288,7 @@ const projects = [
   },
   {
     name: "Walter AI",
-    description: "API Wrapper for Open AI's generative Davinci model.",
+    description: "API Wrapper for Open AI's generative Davinci model",
     tags: ["django", "bootstrap-css", "sqlite3"],
     image: walter,
     live_code_link: "https://github.com/Jstevenson02",
@@ -312,7 +312,7 @@ const projects = [
   },
   {
     name: "E-Commerce Store",
-    description: "Full-Stack CRUD E-commerce Store with sign-up and admin panel.",
+    description: "Full-Stack CRUD E-commerce Store with sign-up and admin panel",
     tags: ["javascript", "mongodb", "stripeapi"],
     image: ecommerce,
     live_code_link: "https://handmade-bydesign.com/",
@@ -320,7 +320,7 @@ const projects = [
   },
   {
     name: "Quote Generator",
-    description: "HTML, CSS and JavaScript random quote generator.",
+    description: "HTML, CSS and JavaScript random quote generator",
     tags: ["javascript", "HTML", "CSS"],
     image: quotegenerator,
     live_code_link: "https://random-quote-generator-ten-kappa.vercel.app/",
