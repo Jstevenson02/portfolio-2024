@@ -273,7 +273,7 @@ const projects = [
   {
     name: "Imagen Photowebsite",
     description: "SASS AI image generation web application.",
-    tag: ["react", "tailwind-css", "clerk", "mongoDB"],
+    tags: ["react", "tailwind-css", "clerk", "mongoDB"],
     image: photoweb,
     live_code_link: "https://photoweb.site/",
     source_code_link: "https://github.com/Jstevenson02/presentit",
