@@ -50,7 +50,7 @@ const Modal: React.FC<ModalProps> = ({ showModal, setShowModal }) => {
             <div className='flex gap-4 pt-96'>
               <a
                 className='outline bg-[#1A1C1D] outline-[#1A1C1D]'
-                href='https://jacobrs.com/'
+                href='https://jacob-stevenson-3o84fnb0i-jstevenson02.vercel.app/'
                 target='_blank'
               >
                 <div className='flex justify-center'>Version 2</div>

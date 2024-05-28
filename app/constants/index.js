@@ -96,7 +96,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Remote Service Engineer",
+    title: "Remote Support Specialist",
     company_name: "Novatech",
     icon: computer,
     iconBg: "#FFFFFF",
