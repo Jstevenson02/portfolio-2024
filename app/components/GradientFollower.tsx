@@ -38,9 +38,11 @@ const GradientFollower: React.FC<GradientFollowerProps> = ({ children }) => {
     setGradient({ x, y });
   };
 
+  const alpha = .6; // Define your alpha value here
+
   const backgroundStyle = isLargeScreen
     ? {
-        background: `radial-gradient(circle 450px at ${gradient.x}% ${gradient.y}%, #2b2b2b, #1A1C1D)`,
+        background: `radial-gradient(circle 350px at ${gradient.x}% ${gradient.y}%,  rgba(43, 43, 43, ${alpha}), rgba(26, 28, 29, ${alpha}))`,
       }
     : {};
 
