@@ -5,7 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  HTML,
+  html,
   css,
   reactjs,
   redux,
@@ -50,7 +50,7 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: HTML,
+    icon: html,
   },
   {
     name: "CSS 3",
