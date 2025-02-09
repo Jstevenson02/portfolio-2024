@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className='scroll-smooth select-none'>
+      <head>
+        <meta name='google-adsense-account' content='ca-pub-4790802862396602' />
+      </head>
       <body className={inter.className}>
         <GradientFollower>{children}</GradientFollower>
       </body>
