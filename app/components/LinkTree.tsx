@@ -1,9 +1,10 @@
 import Image from "next/image";
 
 const links = [
-  { label: "GitHub", url: "https://github.com/jacobrs", icon: "🐙" },
-  { label: "Twitter", url: "https://twitter.com/jacobrs", icon: "🐦" },
-  { label: "LinkedIn", url: "https://linkedin.com/in/jacobrs", icon: "🔗" },
+  { label: "GitHub", url: "https://github.com/Jstevenson02", icon: "🐙" },
+  { label: "Twitter", url: "https://x.com/jacobrste", icon: "🐦" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/jacob-stevenson-406098162/", icon: "🔗" },
+  { label: "Reddit", url: "https://www.reddit.com/user/jacobrste/", icon: "( ͡° ͜ʖ ͡°)" },
   { label: "Portfolio", url: "https://jacobrs.com", icon: "💼" },
 ];
 
