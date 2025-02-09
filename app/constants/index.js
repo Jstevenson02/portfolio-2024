@@ -100,7 +100,7 @@ const experiences = [
     company_name: "Novatech",
     icon: computer,
     iconBg: "#FFFFFF",
-    date: " 2023 - Present",
+    date: " 2023 - 2025",
     points:
       "Created readable reusable documentation using Nextra.js. Maintaining and tracking all of thousands of customers through database systems. Developed end user tools in batch script to facilitate a smoother UX experience. Troubleshooting, repairing and installing of large format MFP and industrial Copy machines.",
     tech: ["TS", "React", "Nextra", "Batch", "Hardware", "Networking"],

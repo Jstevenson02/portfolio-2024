@@ -69,6 +69,7 @@ const ProjectCardData: React.FC<ProjectCardDataProps> = ({
         <Image
           alt={`${name} marketing card`}
           loading='lazy'
+          unoptimized={true}
           width='200'
           height='0'
           decoding='async'
