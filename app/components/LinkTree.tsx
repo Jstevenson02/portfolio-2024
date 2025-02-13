@@ -2,6 +2,8 @@ import Image from "next/image";
 
 const links = [
   { label: "GitHub", url: "https://github.com/Jstevenson02", icon: "🐙" },
+  { label: "Instagram", url: "https://www.instagram.com/jacobrste/", icon: "📸" },
+  { label: "OF", url: "https://onlyfans.com/hungnature", icon: "🏟️" },
   { label: "Twitter", url: "https://x.com/jacobrste", icon: "🐦" },
   { label: "LinkedIn", url: "https://www.linkedin.com/in/jacob-stevenson-406098162/", icon: "🔗" },
   { label: "Reddit", url: "https://www.reddit.com/user/jacobrste/", icon: "( ͡° ͜ʖ ͡°)" },
