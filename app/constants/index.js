@@ -27,7 +27,7 @@ import {
 import quotegenerator from "../assets/quotegenerator.svg";
 import photoweb from "../assets/photowebsite.png";
 import blippy from "../assets/blippy.gif";
-
+import ball from "../assets/8ball.png";
 const services = [
   {
     title: "Web Developer",
@@ -270,6 +270,14 @@ const project_archive = [
 ];
 
 const projects = [
+  {
+    name: "8 Ball",
+    description: "Magic 8 Ball web application",
+    tags: ["react", "tailwind-css"],
+    image: ball,
+    live_code_link: "https://wisdom.jacobrs.com/",
+    source_code_link: "https://github.com/Jstevenson02/presentit",
+  },
   {
     name: "Imagen Photowebsite",
     description: "SASS AI image generation web application",
