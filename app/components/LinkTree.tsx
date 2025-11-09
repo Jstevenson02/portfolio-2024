@@ -7,7 +7,6 @@ const links = [
   { label: "Instagram", url: "https://www.instagram.com/jacobrste/", icon: "📸" },
   { label: "Twitter", url: "https://x.com/jacobrste", icon: "🐦" },
   { label: "Reddit", url: "https://www.reddit.com/user/jacobrste/", icon: "( ͡° ͜ʖ ͡°)" },
-  { label: "OF", url: "https://onlyfans.com/hungnature", icon: "🏟️" },
 ];
 
 const LinkTree = () => {
